@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "dfea161998cb0d41",
+    "type": "split",
+    "children": [
+      {
+        "id": "b36b9bb323dd2976",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30b17db9f0ee7831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/web2-is-for-self-expression-not-thought.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1d60d11eb7d01972",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2e15cb649b3d1ca",
+        "type": "tabs",
+        "dimension": 63.164556962025316,
+        "children": [
+          {
+            "id": "a8d8fc4ca46ae5d9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b8bfa45d406bdfed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "bc8d791daa99af69",
+        "type": "tabs",
+        "dimension": 36.83544303797468,
+        "children": [
+          {
+            "id": "d30703d55cd62618",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "notes/web2-is-for-self-expression-not-thought.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5952541516761725,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "6634be81dc7866d2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "llms",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319.5
+  },
+  "right": {
+    "id": "ed19a5b37135bd0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbcca2cec69ebe26",
+        "type": "tabs",
+        "dimension": 41.11111111111111,
+        "children": [
+          {
+            "id": "eb72978cd4a29ed5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "5bb875cb3e94d3a5",
+        "type": "tabs",
+        "dimension": 58.88888888888889,
+        "children": [
+          {
+            "id": "dc912136a51e952f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/web2-is-for-self-expression-not-thought.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae6ad5cf09ef65b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/web2-is-for-self-expression-not-thought.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "79d39cd3bbb9701d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/web2-is-for-self-expression-not-thought.md"
+              }
+            }
+          },
+          {
+            "id": "2c56eca5ac5bf131",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "30b17db9f0ee7831",
+  "lastOpenFiles": [
+    "_private/life/2023/20-Jun-2023.md",
+    "_private/life/2023/23-Jun-2023.md",
+    "_private/life/2023/24-Jun-2023.md",
+    "notes/a-brand-is-consensus.md",
+    "notes/anti-agency.md",
+    "_private/life/2023/27-Jun-2023.md",
+    "content/notes/planes-going-places.md",
+    "content/notes/anti-agency.md",
+    "content/notes/104-days-of-summer-vacation.md",
+    "content/notes/the-zuzalan-dream-2.md",
+    "content/notes/most-days.md",
+    "_private/people/Nikita Vattas.md",
+    "_private/people/Sundaramahalingam Rajamanickam.md",
+    "_private/people/Shobana Sundaramahalingam.md",
+    "_private/people/Isaac Tay.md",
+    "_private/life/2022/2022-retrospective.md",
+    "_private/people/Shruthika Sundaramahalingam.md",
+    "_private/people/Adrien.md",
+    "_private/people/Dustin L.md",
+    "_private/people/Elizabeth Yeung.md",
+    "content/letters/answer-the-call.md",
+    "content/notes/summer-2023.md",
+    "content/notes/self-socratic-dialogues.md",
+    "content/notes/90-day-transformation.md",
+    "content/notes/understand-the-past.md",
+    "content/notes/magic-in-hand-holding-5.md",
+    "_private/attachments/ens-airdrop.png",
+    "_private/attachments/how-we-gather.pdf",
+    "_private/attachments/IMG_5364.mov.mov",
+    "_private/attachments/mind-map.png",
+    "_private/attachments/Screen Shot 2023-06-05 at 4.31.26 PM.png",
+    "_private/attachments/Screen Shot 2023-01-30 at 10.47.44 PM.png",
+    "_private/attachments/Screen Shot 2023-01-30 at 10.46.05 PM.png",
+    "mind-body-network",
+    "components/NoteItemMinimal.astro",
+    "components/LetterItemMinimal.astro",
+    "components/LetterItem.astro",
+    "pages/letters/index.astro",
+    "pages/letters/[...slug].astro",
+    "pages/letters",
+    "pages/notes/[...slug].astro",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "_private/people/photos/zach.jpeg",
+    "_private/people/photos/yi-hein.jpeg",
+    "_private/people/photos/yeshuai.jpeg",
+    "_private/people/photos/yang-en.jpeg",
+    "_private/people/photos/wilgene-tan.jpeg"
+  ]
+}

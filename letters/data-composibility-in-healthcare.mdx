@@ -1,0 +1,54 @@
+---
+title: "Data composability will change healthcare"
+description: "An open and composable health data ecosystem would be a cure to the myriad of emerging population health crises: unlocking access to preventive healthcare."
+emoji: "🧩"
+pubDate: "Sep 05 2022"
+tags: ["topic/technology", "project/hea"]
+originalPost: "https://heacare.substack.com/p/data-composability-in-healthcare"
+---
+
+There are [over 54,000 mobile health applications](https://www.statista.com/statistics/779910/health-apps-available-ios-worldwide/) currently available on the Apple App Store. Each of these applications holds a data silo, for running distance, sleep health, mood, and several other wellness markers bundled as personal health data. Some of these apps, however, have a publicly accessible API which opens keyholes to their underlying data. Dismally often that data is held in a format arbitrarily decided during the development process of the application.
+
+Apple made a savior in [Apple Health](https://www.apple.com/newsroom/2022/07/how-apple-is-empowering-people-with-their-health-information/). By standardizing the data model, Apple Health allows developers to read and write from a single source of truth for a person’s health data. It provides more than 150 standardized types of health data for any app to use. This creates a positive-sum game where all the apps and services using Apple Health can trade information to outcompete any single isolationist health super-app.
+
+To illustrate, MyFitnessPal, a calorie tracking app can pull step counts from Garmin Connect through Apple Health. Now, it knows exactly how far the user has walked, allowing it to compensate for exercise-burnt calories in its daily recommended intake. Similarly, Garmin Connect knows how many calories the user has consumed, allowing it to provide personalized activity recommendations. This is vertical innovation, where MyFitnessPal specializes in tracking calories and Garmin Connect specializes in activity tracking. Cohesively, they provide a better experience than either could alone.
+
+Apple Health works extremely well with Apple devices and not at all otherwise. To share health data with a loved one, both parties must have access to Apple devices and iCloud. To share data when consulting medical professionals, they must be an “enrolled medical clinic”. And there is no way to view Apple Health data on any third-party website or online service.
+
+Apple controls where the health data lives and where it is allowed to go. It is a walled garden of perfect interoperability, which is what Apple has always done best. Data exports are possible out of Apple Health, but the output of all exports is static. Health data is dynamic, so dead snapshots are only useful for a hard exit from the ecosystem.
+
+That is insufficient for healthcare. Apple Health is a closed-ended ecosystem, a platform that ultimately serves Apple’s motives. Closed-ended ecosystems stifle competition and have the potential for [extractive revenue generation](https://www.wsj.com/articles/google-apple-hit-in-south-korea-by-worlds-first-law-ending-their-dominance-over-app-store-payments-11630403335), both outcomes are terrible for healthcare innovators. This sandboxes Apple Health's adoption to the existing ecosystem, instead of creating the deep platform-agnostic composability that would unlock the potential of personal health data.
+
+Universally composable health data is the assault which might finally crack the coordination problem that permeates the healthcare industry. Armed with the ability to transcend physical borders, new technologies like [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) and [OpenAttestation](https://www.openattestation.com/) enable trust at scale. During the pandemic, healthcare agencies worldwide used similar systems to validate digital vaccination records backed by cryptographic proofs of authenticity. This is extensible beyond vaccination records to prescriptions and more generally any medical record.
+
+Like physical borders, composability in health data also transcends digital borders across apps and services. The digital health ecosystem operates like monarchies where companies exercise sovereignty over user-generated health data which remains paralyzed inside data silos. With composability, personal health data becomes self-sovereign and this puts control back in the hands of users. Instead of aggregating health data, applications specialize and provide services and features that they alone are proficient at. These features can be composed and extended as data freely flows between different application “states”.
+
+In practice, a genetic testing company would not need to build an app, it simply needs to write genetic data to a user’s data store along with any proprietary data insights it has generated. The data can be signed cryptographically to allow for future verification of the source of the information. The visualization of that data can be done by an entirely independent dashboard application which is designed to present the data in a human-readable format.
+
+**The future of digital health should not be a super-app Empire, it should be a Republic of collaborating applications, each serving its niche well and building a stronger whole.** This makes the ecosystem resilient against extractive profit-seeking by any one application or service provider. Niche applications also serve communities better than general platforms, by providing hyper-personalized experiences to target specific use-cases without compromising on ecosystem interoperability.
+
+One approach to achieving data composability is adapters, to transform various data sources into a single source of truth. A few examples of this include [beepb00p, who built personal data aggregator infrastructure](https://beepb00p.xyz/myinfra.html) and [Terra, a YC-backed startup](https://tryterra.co/).
+
+But the adapter approach has major drawbacks: they are typically read-only without the ability to write updates to data sources, and the burden of integration is on the adaptor provider. In Terra’s example, third-party products lack incentives to write adaptors for Terra as it allows users to leave their walled gardens without providing any upside. Third-party products can also change their underlying data structures suddenly and rug the adaptor which remains unaware and outdated.
+
+Apple Health also achieves data composability but has sandboxed itself into its own ecosystem. Incentive alignment is important here, to create flourishing composable data ecosystems requires the infrastructure to be [credibly neutral](https://nakamoto.com/credible-neutrality/). A credibly neutral system cannot discriminate for or against any specific people. Apple Health is not credibly neutral because it will discriminate in favour of Apple. In contrast, people build products and services on credibly neutral systems like [Ethereum](https://ethereum.foundation/) with the trust that the ecosystem will not become extractive in the future.
+
+What does a credibly neutral Apple Health look like? An open-source and collectively-owned health data system that is platform-agnostic. The open-source nature allows all participants to voice concerns over architecture and contribute to the system’s development. The collectively-owned nature prevents extractive revenue generation and treats the system as a [public good](https://otherinter.net/research/positive-sum-worlds/).
+
+Health Apps [can be “local-first” and “client-side”](https://ceramic.network/), relying on a self-sovereign health data backpack for data storage. The data backpack also enables [credible exit](https://subconscious.substack.com/p/credible-exit) from any application, allowing users to easily move between different products. This creates healthy competition within the ecosystem, reducing the barrier of user acquisition for newer, better applications. A credibly neutral Apple Health would be an open-ended ecosystem.
+
+In [Carl Sagan’s Cosmic Connection](https://books.google.com.sg/books?id=lL57o9YB0mAC&lpg=PA156&pg=PA237&redir_esc=y#v=onepage&q&f=false), he talks about how a civilization’s ability to solve critical challenges to progress, such as avoiding pandemics and solving ageing, is positively correlated to information availability. Yet today, health data is created, controlled and stored by opaque companies and governments. An open, composable health data ecosystem would be the cure to that.
+
+# Walk into the future
+
+A new cafe just opened down the street from your house. You peek in, there is an empty table right next to the street-side window. Walking in, you take your seat and see the QR code to the digital ordering system. Itching for some food, you scan it:
+
+_“Approve health data request - recommended nutrition intake ”_
+
+You approve the request, and the Menu slides into view. At the top, is a delicious salmon steak with cream sauce. You’re running low on protein it says. You scroll down to the coffee section, they must have good cappuccinos. You are on your third cup of the day, the menu gently reminds you.
+
+You sigh and click the decaf option on the checkout. _“Next time, I’ll come in the morning, bet they have some interesting coffee beans”,_ you think to yourself.
+
+At [Happily Ever After](https://hea.care/), we are working on a project called [Habitat Health](https://heacare.notion.site/Habitat-Health-3a3c6b473f0e468b8bb385290cf4e991) to bring composability and self-sovereignty to health data. Find out more about Habitat Health on our website, and follow us on our socials to stay in tune with any updates!
+
+

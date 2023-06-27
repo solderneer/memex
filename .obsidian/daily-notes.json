@@ -1,0 +1,6 @@
+{
+  "template": "_private/_templates/Daily",
+  "format": "YYYY/DD-MMM-YYYY",
+  "folder": "_private/life",
+  "autorun": true
+}

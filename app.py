@@ -1,6 +1,17 @@
+# Flask imports
 from flask import Flask
 
+# Local modules
+from index import Index
+
+index = Index("./embeddings", ["./notes", "./letters", "./_private"])
+index.refresh()
+
 app = Flask(__name__)
+
+@app.route("/index")
+def index():
+    pass
 
 @app.route("/search")
 def search():

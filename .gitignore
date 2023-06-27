@@ -1,5 +1,6 @@
 # Hide all private notes
 _private
+embeddings
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

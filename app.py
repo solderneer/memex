@@ -28,4 +28,11 @@ def search():
 
 @app.route("/answer")
 def answer():
-    return "hi"
+    query = request.args.get('query', '')
+    return index.answer(query)
+
+@app.route("/similar")
+def similar():
+    id = request.args.get('id', '')
+    limit = int(request.args.get('limit', '5'))
+    return index.similarById(id, limit)
